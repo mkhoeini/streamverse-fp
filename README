@@ -1,0 +1,8 @@
+# Runtime
+I use https://bun.sh/ for running tests, tasks and package management.
+
+# Development
+
+```shell
+bun install
+```

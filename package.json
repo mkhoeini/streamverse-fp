@@ -2,5 +2,6 @@
   "name": "streamverse-fp",
   "version": "1.0.0",
   "dependencies": {
+    "bun-types": "^0.5.8"
   }
 }
