@@ -27,6 +27,7 @@
     }
   },
   "scripts": {
+    "build": "vite build",
     "format": "prettier -w .",
     "lint": "eslint ."
   },

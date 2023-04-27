@@ -7,8 +7,6 @@
 
     // typescript 5.x+
     "moduleResolution": "bundler",
-    // typescript 4.x or earlier
-    "moduleResolution": "nodenext",
 
     // support JSX, CommonJS
     "jsx": "react-jsx", // support JSX (value doesn't matter)
