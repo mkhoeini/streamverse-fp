@@ -1,6 +1,31 @@
 {
   "name": "streamverse-fp",
-  "version": "1.0.0",
+  "version": "0.0.0",
+  "author": "Mohammad Sadegh Khoeini (mskco.tp@gmail.com)",
+  "description": "A typescript library for working with tasks and state",
+  "license": "MIT",
+  "homepage": "https://github.com/mkhoeini/streamverse-fp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mkhoeini/streamverse-fp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mkhoeini/streamverse-fp/issues"
+  },
+  "keywords": ["typescript", "fp-ts", "task"],
+  "type": "module",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.cjs.js"
+    }
+  },
   "scripts": {
     "format": "prettier -w .",
     "lint": "eslint ."
@@ -13,6 +38,8 @@
     "@typescript-eslint/parser": "^5.59.1",
     "eslint": "^8.39.0",
     "prettier": "^2.8.7",
-    "typescript": "^5.0.4"
+    "typescript": "^5.0.4",
+    "vite": "^4.3.3",
+    "vite-plugin-dts": "^2.3.0"
   }
 }
